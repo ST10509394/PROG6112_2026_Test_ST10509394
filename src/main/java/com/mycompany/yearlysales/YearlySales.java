@@ -4,7 +4,8 @@ public class YearlySales
 {
     public static void main(String[] args) 
     {
-        ConsolesSalesReport report = new ConsolesSalesReport();
+        // Instantiate the worker class and print full report
+        SalesProcessor report = new SalesProcessor();
         report.printReport();
     }
 }
